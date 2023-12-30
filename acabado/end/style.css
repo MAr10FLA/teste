@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner {
+    height: 100vh;
+    background-image: url('/imagem/WhatsApp\ Image\ 2023-11-23\ at\ 07.18.10.jpeg');
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    color: white;
+}
+
+.banner header {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 60%;
+    
+}
+
+.banner p{
+    justify-items: center;
+}
+
+.banner span {
+    color: aqua;
+
+}
+
+.icon {
+    border-radius: 100%;
+    border: 1px solid white;
+    padding: 10px;
+    margin-bottom: 3em;
+    width: 350px;
+
+}
+
+.card {
+    padding: 60px 80px;
+    height: auto;
+    display: flex;
+    gap: 5%;
+    align-items: center;
+
+}
+.card, .cards{
+    padding: 60px 80px;
+}
+
+.card p {
+    line-height: 25px;
+    
+}
+
+button {
+    width: 180px;
+    cursor: pointer;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    background: rgb(22, 22, 160);
+align-items: center;
+transition: .3s;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+.button-w {
+    background-color: #fff;
+    color: #3498db;
+    width: 165px;
+    cursor: pointer;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+
+}
+
+.cardblue {
+
+    background-color: #3498db;
+    color: #fff;
+    flex-direction: row-reverse;
+    
+    
+
+}
+
+.cardblue p{
+    line-height: 25px;
+}
+
+.cards{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 25px;
+}
+.cards article{
+display: grid;
+justify-items: center;
+gap: 25px;
+text-align: center;
+}
+.cards p{
+    color: grey;
+}
+
+footer{
+    text-align: center;
+    padding: 15px;
+}
+footer span{
+    font-weight: 900;
+}
+.social-icons{
+    color: black;
+    cursor: pointer;
+ 
+
+}
+
+.social-icons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
